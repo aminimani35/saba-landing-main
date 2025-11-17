@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+
+
+@font-face{
+    font-family: "Yekan";
+    src: url("../assets/fonts/YekanBakhFaNum-Thin.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 200;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Yekan";
+    src: url("../assets/fonts/YekanBakhFaNum-Light.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 300;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Yekan";
+    src: url("../assets/fonts/YekanBakhFaNum-Regular.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Yekan";
+    src: url("../assets/fonts/YekanBakhFaNum-SemiBold.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 500;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Yekan";
+    src: url("../assets/fonts/YekanBakhFaNum-Bold.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 600;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Yekan";
+    src: url("../assets/fonts/YekanBakhFaNum-ExtraBold.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 700;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Yekan";
+    src: url("../assets/fonts/YekanBakhFaNum-Black.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 800;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Yekan";
+    src: url("../assets/fonts/YekanBakhFaNum-ExtraBlack.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 900;
+    font-style:normal;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+ullist {
+    list-style-type: disc;
+  }
+
+  ulNav {
+    
+        list-style-type: none;
+    
+  }
+  @theme {
+    --color-primary: #495057;
+    --color-background: #F9F8F4;
+    --color-accent: #FFD341;
+    --color-neutral: #BEBAAA;
+    --color-mint-500: oklch(0.72 0.11 178);
+  }
+body {
+    font-family: "Yekan";
+    scroll-behavior: smooth;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color:#444444
+}
