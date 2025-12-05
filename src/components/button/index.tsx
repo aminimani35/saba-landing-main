@@ -14,7 +14,7 @@ export default function Button({ linkpage, name, className = "", onClick }: Prop
   return (
     <button
       onClick={onClick}
-      className={`w-full max-w-full min-w-[120px] md:min-w-[163px] px-4 md:px-6 py-3 flex justify-center items-center whitespace-nowrap rounded-[40px] text-[16px] font-bold ${className}`}
+      className={`w-full max-w-full min-w-[80px] md:min-w-[163px] px-3 md:px-6 py-2 md:py-3 flex justify-center items-center whitespace-nowrap rounded-[40px] text-sm md:text-[16px] font-bold ${className}`}
       type="button"
       // اگر هدفت استفاده لینک هست، باید <a> باشه ولی اگر دکمه است، این درسته
     >

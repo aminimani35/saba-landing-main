@@ -9,9 +9,11 @@ interface Ilist {
 
 const list: Ilist[] = [
   { id: 1, name: "برنامه ریزی و مشاوره تحصیلی" },
-  { id: 2, name: "مشاوره فردی و خانوادگی" },
-  { id: 3, name: "مدیریت استرس و اضطراب" },
-  { id: 4, name: "میدریت خشم" },
+  { id: 2, name: "سنجش هوش و استعداد تحصیلی " },
+  { id: 3, name: "مسیر موفقیت تحصیلی" },
+  { id: 4, name: "مشاوره فردی و خانوادگی" },
+  { id: 5, name: "مدیریت استرس و اضطراب" },
+  { id: 6, name: "مدیریت خشم" },
 ];
 
 export default function CounselingClinic() {

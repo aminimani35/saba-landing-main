@@ -25,7 +25,7 @@ export default function TabItem({ activeItem, setActiveItem }: Props) {
             key={data.id}
             name={data.name}
             onClick={() => setActiveItem(data.id)}
-            className={` cursor-pointer ${
+            className={`cursor-pointer text-xs md:text-base px-2 py-1 md:px-4 md:py-2 ${
               activeItem === data.id
                 ? "text-white bg-primary"
                 : "text-white bg-neutral"

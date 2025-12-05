@@ -27,16 +27,16 @@ export default function Navbar() {
 
   return (
     <section className="fixed top-0 left-0 right-0 z-50 bg-white w-full shadow-md">
-      <div className="w-full max-w-[1440px] mx-auto flex justify-between items-center px-6 py-4 md:justify-center md:flex-col gap-2 ">
+      <div className="w-full max-w-[1440px] mx-auto flex justify-between items-center px-4 py-2 md:px-6 md:py-4 md:justify-center md:flex-col gap-2 ">
 
         <div className="mt-0 md:mt-1">
-          <LogoWithName width={100} height={32} />
+          <LogoWithName width={80} height={26} />
         </div>
         <button
           onClick={() => setIsOpen(true)}
           className="md:hidden relative text-black"
         >
-          ِ<Image src={menuIcon} alt="menuIcon" />
+         <Image src={menuIcon} alt="menuIcon" />
         </button>
 
 
@@ -59,10 +59,10 @@ export default function Navbar() {
         </div>
         <Drawer isOpen={isOpen} onClose={() => setIsOpen(false)} />
       </div>
-      <div className=" cursor-pointer shadow-md fixed bg-accent flex bottom-5 right-5 justify-center items-center z-99 rounded-[50%] md:w-[80px] md:h-[80px] w-[60px] h-[60px]">
+      <div className=" cursor-pointer shadow-md fixed bg-accent flex bottom-5 right-5 justify-center items-center z-99 rounded-[50%] md:w-[80px] md:h-[80px] w-[50px] h-[50px]">
         <Link href={"tel:02134727272"}>
           <div className="flex md:hidden">
-            <Image width={40} height={40} src={phoneIcon} alt="phoneIcon" />
+            <Image width={30} height={30} src={phoneIcon} alt="phoneIcon" />
           </div>
           <div className="hidden md:flex">
             <Image width={60} height={60} src={phoneIcon} alt="phoneIcon" />
