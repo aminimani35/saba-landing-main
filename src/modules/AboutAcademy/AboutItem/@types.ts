@@ -22,7 +22,7 @@ export const AboutItemList: IAboutItem[] = [
   },
   {
     id: 2,
-    title: "بیش از هزاران هنرجو",
+    title: "بیش از هزاران دانشجو",
     discription: "آموزش تخصصی برای تمام گروه‌های سنی",
     Icon: student,
     boxStyle: "bg-accent",

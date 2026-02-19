@@ -2,6 +2,7 @@ import Button from "@/components/button";
 import heroImage from "../../assets/Frame 74.png";
 import Image from "next/image";
 import Link from "next/link";
+import RegistrationModal from "@/modules/RegistrationModal";
 
 export default function Hero() {
   return (
@@ -29,20 +30,22 @@ export default function Hero() {
             <span className="text-primary">صبا</span>
           </h1>
 
-          <p className="md:text-4xl text-2xl  text-center md:text-start font-normal">
+          <p className="md:text-4xl text-2xl  text-center md:text-start font-normal md:whitespace-nowrap">
             آموزش زبان، هنر و توسعه فردی برای همه سنین
           </p>
           <div className="flex gap-x-4">
             <Link href="https://sabaacademy.vcv.ir/">
               <Button
                 name="ورود به پنل آنلاین"
-                className="bg-accent text-black transition-colors hover:bg-black hover:text-accent"
+                className="bg-accent text-black transition-colors hover:bg-black hover:text-accent cursor-pointer"
               />
             </Link>
-            <Button
-              name="اطلاعات بیشتر"
-              className="text-white bg-primary transition-colors hover:text-primary hover:bg-[white]"
-            />
+            <RegistrationModal>
+              <Button
+                name="ثبت نام"
+                className="text-white bg-primary transition-colors hover:text-primary hover:bg-[white] cursor-pointer"
+              />
+            </RegistrationModal>
           </div>
         </div>
       </div>

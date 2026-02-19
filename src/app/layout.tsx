@@ -1,4 +1,5 @@
 import Navbar from "@/modules/Navbar";
+import { Toaster } from "@/components/ui/toaster";
 import "@/app/globals.css"
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
@@ -9,6 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </title>
                 <Navbar />
                 {children}
+                <Toaster />
             </body>
         </html>
     )

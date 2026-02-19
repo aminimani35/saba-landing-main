@@ -3,8 +3,8 @@ import { AboutItemList } from "./AboutItem/@types";
 import AboutItem from "./AboutItem";
 import { TbBrandInstagram, TbBrandTelegram } from "react-icons/tb";
 
-import Image from "next/image";
-import social from "../../assets/social photo.png";
+// import Image from "next/image";
+// import social from "../../assets/social photo.png";
 import Link from "next/link";
 
 export default function AboutAcademy() {
@@ -36,7 +36,7 @@ export default function AboutAcademy() {
                 می‌دهد.
                 <br />
                 علاوه بر آموزش تخصصی، کلینیک مشاوره صبا با تیمی حرفه‌ای خدمات
-                مشاوره تحصیلی، فردی، خانوادگی، کنترل استرس و مدیریت خشم را فراهم
+                مشاوره تحصیلی، فردی، خانوادگی، سنجش  هوش و استعداد تحصیلی ، کنترل استرس و مدیریت خشم را فراهم
                 کرده تا مسیر رشد و آرامش زبان‌آموزان و خانواده‌ها را هموار کند.
                 ما باور داریم آموزش باید فراتر از کتاب و کلاس باشد و به رشد کامل
                 افراد کمک کند.
