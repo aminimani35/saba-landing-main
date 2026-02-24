@@ -72,7 +72,7 @@ const formSchema = z.object({
     .string()
     .regex(/^[0-9]{10}$/, { message: "کد ملی باید ۱۰ رقم باشد" }),
   DateOfBirth: z.date({ message: "لطفا تاریخ تولد را انتخاب کنید" }),
-  Degree: z.string().min(1, { message: "لطفا مقطع تحصیلی را انتخاب کنید" }),
+  Degree: z.string().min(1, { message: "لطفا مدرک تحصیلی را انتخاب کنید" }),
   Avatar: z
     .instanceof(File, { message: "لطفا تصویر پروفایل را انتخاب کنید" })
     .refine((file) => file.size <= 5000000, { message: "حجم فایل باید کمتر از ۵ مگابایت باشد" })
@@ -326,11 +326,11 @@ export default function RegistrationModal({ children }: RegistrationModalProps) 
           name="Degree"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-right block">مقطع تحصیلی *</FormLabel>
+              <FormLabel className="text-right block">مدرک تحصیلی *</FormLabel>
               <Select onValueChange={field.onChange} defaultValue={field.value}>
                 <FormControl>
                   <SelectTrigger className="w-full text-right">
-                    <SelectValue placeholder="مقطع تحصیلی را انتخاب کنید" />
+                    <SelectValue placeholder="مدرک تحصیلی را انتخاب کنید" />
                   </SelectTrigger>
                 </FormControl>
                 <SelectContent>
